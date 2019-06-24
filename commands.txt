@@ -1,0 +1,2 @@
+sudo puppet parser validate site.pp
+sudo puppet agent --test
