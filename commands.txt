@@ -1,2 +1,6 @@
 sudo puppet parser validate site.pp
 sudo puppet agent --test
+sudo puppet apply <name> --noop
+sudo puppet apply <name>
+sudo puppet cert list
+sudo puppet cert sign --all 
